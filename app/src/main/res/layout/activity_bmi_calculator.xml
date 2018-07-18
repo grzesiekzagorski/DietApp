@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo16"
+    android:orientation="vertical"
+    tools:context=".activities.BmiCalculator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="Oblicz swój wskaźnik BMI"
+            android:textAlignment="center"
+            android:textColor="#808080"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="3"
+            android:padding="5dp"
+            android:text="Płeć:"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:layout_weight="5"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioWoman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:onClick="checkButton"
+                android:text="Kobieta"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/radioMan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:onClick="checkButton"
+                android:text="Mężczyzna"
+                android:textSize="18dp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/text154"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Waga"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/textBMIWeight"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="200dp"
+                android:ems="10"
+                android:hint="KG"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Wzrost"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/textBMIGrowth"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="200dp"
+                android:ems="10"
+                android:hint="CM"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ObliczBmi"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Oblicz"
+            android:onClick="countBMI"/>
+    </LinearLayout>
+
+</LinearLayout>

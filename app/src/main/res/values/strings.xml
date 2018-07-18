@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DietApp</string>
+
+    <string-array name="chooseSex">
+        <item>pusty</item>
+        <item>Kobieta</item>
+        <item>Mężczyzna</item>
+    </string-array>
+    <string name="title_activity_home">Menu główne</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="your_diet">Twoja dieta</string>
+    <string name="about_you">O Tobie</string>
+    <string name="about_bmi">Zakresy wartości BMI</string>
+    <string name="QR_name">Skaner QR</string>
+    <string name="scan_products">Zeskanowane produkty</string>
+    <string name="calculator_bmi">Kalkulator BMI</string>
+    <string name="Bmi_information">Zakresy wartości BMI</string>
+    <string name="dataBase_products">Baza produktów</string>
+    <string name="healthy_plan">Plan żywieniowy</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/plan_zywieniowy"
+            android:icon="@drawable/calendar"
+            android:title="Plan żywieniowy" />
+        <item
+            android:id="@+id/baza_produktow"
+            android:icon="@drawable/database"
+            android:title="Baza produktów" />
+        <item
+            android:id="@+id/skanuj_produkt"
+            android:icon="@drawable/qr_scan"
+            android:title="Skanuj produkt" />
+        <item
+            android:id="@+id/wskaznik_wagi"
+            android:icon="@drawable/calculator"
+            android:title="Wskaźnik wagi" />
+        <item
+            android:id="@+id/zeskanowane_produkty"
+            android:icon="@drawable/product"
+            android:title="Zeskanowane produkty" />
+
+    </group>
+
+</menu>

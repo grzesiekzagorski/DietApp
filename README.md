@@ -1,0 +1,1 @@
+Przykładowe repozytorium do przedmiotu Programowanie aplikacji mobilnych
